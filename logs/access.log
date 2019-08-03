@@ -376,3 +376,4 @@
 ::1 - - [03/Aug/2019:07:46:28 +0000] "GET /api/blog/list HTTP/1.0" 304 - "http://localhost:8000/main/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36"
 ::ffff:127.0.0.1 - - [03/Aug/2019:07:54:08 +0000] "GET /api/blog/list HTTP/1.0" 304 - "http://localhost:8000/main/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36"
 ::1 - - [03/Aug/2019:07:57:45 +0000] "GET /api/blog/list HTTP/1.0" 304 - "http://localhost:8000/main/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36"
+::1 - - [03/Aug/2019:16:02:44 +0000] "GET / HTTP/1.1" 200 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36"
