@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=dev nodemon ./bin/index",
-    "prd": "cross-env NODE_ENV=production pm2 start pm2.conf.json"
+    "prd": "cross-env NODE_ENV=production PORT=80 pm2 start pm2.conf.json"
   },
   "dependencies": {
     "connect-redis": "^3.4.1",

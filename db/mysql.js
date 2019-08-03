@@ -1,26 +1,26 @@
-const mysql = require('mysql')
-const { MYSQL_CONF } = require('../conf/db')
+const mysql = require("mysql");
+const { MYSQL_CONF } = require("../conf/db");
 
 // 转义函数
-const { escape } = mysql
+const { escape } = mysql;
 
 // 创建连接对象
-const con = mysql.createConnection(MYSQL_CONF)
+const con = mysql.createConnection(MYSQL_CONF);
 
 // 开始连接
-con.connect()
+con.connect();
 
 // 统一执行 sql 的函数
 function exec(sql) {
-    return new Promise((resolve, reject) => {
-        con.query(sql, (err, result) => {
-            if (err) {
-                reject(err)
-                return
-            }
-            resolve(result)
-        })
-    })
+  return new Promise((resolve, reject) => {
+    con.query(sql, (err, result) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+      resolve(result);
+    });
+  });
 }
 
-module.exports = { exec, escape }
+module.exports = { exec, escape };
