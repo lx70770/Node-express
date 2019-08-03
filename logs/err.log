@@ -1,0 +1,6 @@
+2019-07-22 16:20:41: Mon, 22 Jul 2019 08:20:41 GMT express-session deprecated undefined resave option; provide resave option at app.js:50:9
+2019-07-22 16:20:41: Mon, 22 Jul 2019 08:20:41 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:50:9
+2019-07-22 16:30:28: Mon, 22 Jul 2019 08:30:28 GMT express-session deprecated undefined resave option; provide resave option at app.js:50:9
+2019-07-22 16:30:28: Mon, 22 Jul 2019 08:30:28 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:50:9
+2019-07-22 16:30:34: Mon, 22 Jul 2019 08:30:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:50:9
+2019-07-22 16:30:34: Mon, 22 Jul 2019 08:30:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:50:9
